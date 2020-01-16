@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title> Registration form </title>
+    <script src="myjs/validation1.js">
+    </script>
+    <style>
+      H1{
+         color:green;
+        }
+      H3{
+         color:red;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 align=center> Student registration form </h1>
+    <br>
+    <h3>Personal information</h3>
+    <hr size=4 color="blue">
+    <form name="myform" onsubmit="return validation()" action=2.html  method=post>
+      <table border=2 width=60%>
+        <tr>
+          <td>Name:
+          <td><input type="text" name="Name"/>
+        </tr>
+
+        <tr>
+          <td>Date of birth:
+          <td><input type="text" name="Dob"/>
+        </tr>
+
+        <tr>
+          <td>Gender:
+          <td><input type="radio" name="Gender" id="1"/>Male<input type="radio" name="Gender" id="2"/>Female
+        </tr>
+      </table>
+    <br>
+    <h3>Contact information</h3>
+    <hr size=4 color="blue">
+      <table border=2 width=60%>
+        <tr>
+          <td>Address:
+          <td><input type="text" name="Address"/>
+        </tr>
+    
+        <tr>
+          <td>City:
+          <td><input type="text" name="City"/>
+        </tr>
+  
+        <tr>
+          <td>Zipcode:
+          <td><input type="text" name="Zipcode"/>
+        </tr>
+
+        <tr>
+          <td>Email:
+          <td><input type="text" name="Email"/>
+        </tr>
+      </table>
+    <br>
+    <h3> Course information </h3>
+    <hr size=4 color="blue">
+      <table border=2 width=60%>
+        <tr>
+          <td>Course name:
+          <td><input type="text" name="Course_name"/>
+        </tr>
+  
+        <tr>
+          <td>Payment details:
+          <td><input type="radio" name="Pay" id="3"/>Credit card
+              <input type="radio" name="Pay" id="4"/>Cash 
+              <input type="radio" name="Pay" id="5"/>Cheque
+       </tr>
+
+       <tr colspan=3 align="center">
+         <td> <input type="submit" value="Validate" />
+       </tr>
+     </table>
+  </form>
+  </body>
+</html>
+   
