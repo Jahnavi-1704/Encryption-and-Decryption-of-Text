@@ -11,7 +11,7 @@ Description -
 
 This program involves-
 
--> Dynmaic memory allocation
+-> Dynmaic memory allocation- pointers
 
 -> OOP Principles- Modularity
 
