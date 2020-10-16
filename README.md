@@ -1,4 +1,4 @@
-# Encryption-and-Decryption-of-Text
+# Text Encryption-and-Decryption
 Description -
 
 -This program applies ASCII armouring for encryption and decryption of large text files using dynamic memory allocation.
