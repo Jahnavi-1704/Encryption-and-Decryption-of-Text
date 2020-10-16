@@ -15,6 +15,8 @@ OOP Principles- Modularity
 
 STL container classes- Arrays
 
+C++ Libraries- String library, math library, ctype library
+
 Flow of Control
 
 Iterators, Functions
