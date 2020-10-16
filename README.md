@@ -7,7 +7,8 @@
 
 -This project implements 2 functions: one function encodes the plaintext message and converts the resulting ciphertext to ASCII armour, a second function converts the ASCII armour back into the ciphertext and then decodes the ciphertext back into the plaintext. 
 
-This program invloves-
+This program involves-
+
 Dynmaic memory allocation
 
 OOP Principles- Modularity
