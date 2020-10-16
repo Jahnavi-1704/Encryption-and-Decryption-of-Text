@@ -1,4 +1,6 @@
 # Encryption-and-Decryption-of-Text
+Description -
+
 -This program applies ASCII armouring for encryption and decryption of large text files using dynamic memory allocation.
 
 -Upon encoding the plaintext a sequence of numbers is generated based on a key. If both the sender and receiver possess the same key, then the sender can generate the ciphertext by exclusive-ORing the plaintext with the generated sequence of bits, and the receiver can then recover the plaintext by, once again, exclusive-ORing the plaintext with the identical generated sequence of bits. 
@@ -9,14 +11,14 @@
 
 This program involves-
 
-Dynmaic memory allocation
+-> Dynmaic memory allocation
 
-OOP Principles- Modularity
+-> OOP Principles- Modularity
 
-STL container classes- Arrays
+-> STL container classes- Arrays
 
-C++ Libraries- String library, math library, ctype library
+-> C++ Libraries- String library, math library, ctype library
 
-Flow of Control
+-> Flow of Control
 
-Iterators, Functions
+-> Iterators, Functions
