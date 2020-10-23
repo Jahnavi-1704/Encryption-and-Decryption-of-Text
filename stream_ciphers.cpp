@@ -2,7 +2,7 @@
  * project2.cpp
  *
  *  Created on: 02-Nov-2019
- *      Author: Hemant Shah
+ *      Author: Jahnavi Shah
  */
 #include<iostream>
 #include<cctype>
